@@ -169,4 +169,12 @@ a{
   border-radius: 10px;        
 
 }
+.gallery-title {
+    font-size: 3em;               /* Default font size for large screens */
+    margin-bottom: 20px;          /* Space between title and images */
+    color: #333;                  Color of the title
+    color: rgb(158, 251, 46);
+    font-weight: bold;            /* Bold font */
+    transition: font-size 0.3s;   /* Smooth transition when resizing */
+}
 
