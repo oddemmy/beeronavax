@@ -177,4 +177,27 @@ a{
     font-weight: bold;            /* Bold font */
     transition: font-size 0.3s;   /* Smooth transition when resizing */
 }
+@media (max-width: 768px) {
+    .gallery {
+        justify-content: space-around; /* Space out images on smaller screens */
+    }
 
+    .gallery img {
+        width: 45%;  /* Reduce image width on small screens */
+    }
+
+    .gallery-title {
+        font-size: 2.5em;             /* Smaller title font size on medium screens */
+    }
+}
+
+/* Media Query for Very Small Screens (mobile) */
+@media (max-width: 480px) {
+    .gallery img {
+        width: 90%;  /* Make images almost full width on very small screens */
+    }
+
+    .gallery-title {
+        font-size: 2em;             /* Smaller title font size on very small screens */
+    }
+}
