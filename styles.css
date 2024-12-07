@@ -148,4 +148,25 @@ a{
   display: flex;
   justify-content: center;
 }
+.gallery{
+  /* padding: 10%; */
+    background: rgb(233 67 69);
+}
+/* Gallery Section */
+.gallery {
+  display: flex;              
+  justify-content: center;    
+  gap: 20px;                   
+  padding: 20px;               
+  flex-wrap: wrap;             
+  background: rgb(233 67 69);
+}
+
+/* Image Styling */
+.gallery img {
+  max-width: 100%;           
+  height: auto;               
+  border-radius: 10px;        
+
+}
 
